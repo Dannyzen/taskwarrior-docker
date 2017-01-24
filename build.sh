@@ -10,4 +10,4 @@ cmake -DCMAKE_BUILD_TYPE=release .
 make
 cd ..
 cp task-$TASKWARRIOR/src/task /usr/bin/task
-sudo rm -Rf task-$TASKWARRIOR*
+rm -Rf task-$TASKWARRIOR*
